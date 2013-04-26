@@ -1,0 +1,19 @@
+{
+    "name": "domains-romance",
+    "description": "An illustration of how domains can catch errors on your Node.js server",
+    "version": "1.0.0",
+    "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenicdenicola.com)",
+    "license": "WTFPL",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/domenic/domains-romance.git"
+    },
+    "bugs": "https://github.com/domenic/domains-romance/issues",
+    "scripts": {
+        "start": "node serverWithDomains.js",
+        "start-no-domains": "node server.js"
+    },
+    "dependencies": {
+        "concat-stream": "~0.1.1"
+    }
+}
